@@ -17,6 +17,12 @@ body {
     url("../images/cavapoo-window.jpg") no-repeat center center fixed;
   background-size: cover;
 }
+
+.bg-img-gallery {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/belfast-sunrise.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
 /* ------ End Background Image ------ */
 
 /* ------ NavBar ------ */
@@ -48,7 +54,7 @@ body {
 
 .navbar-dark .navbar-nav .nav-link:active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color:#FFFCF2;
+    color:#fffcf2;
 }
 /* ------ End NavBar ------ */
 
@@ -57,6 +63,11 @@ body {
     padding: 20px;
     height: 80vh;
 }
+
+.page-title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
 /* ------ End Page Title ------ */
 
 /* ------ Buttons ------ */
@@ -64,7 +75,22 @@ body {
     color: #fffcf2;
     border: 1.5px solid #fffcf2;
     padding: 15px 30px;
+    margin: 20px;
+    width: 250px;
+}
+
+.btn-close {
+    background-color: #252422;
+    color: #fffcf2;
+    padding: 15px 30px;
+    font-weight: 300;
+    letter-spacing: 5px;
     margin-top: 20px;
+}
+
+.btn-close:hover {
+    background-color: #403d39;
+    color: #FFFCF2;
 }
 /* ------ End Buttons ------ */
 
@@ -100,14 +126,44 @@ body {
 
 .modal-footer .btn {
     background-color: #252422;
-    color: #FFFCF2;
+    color: #fffcf2;
     padding: 10px 40px;
 }
 
 .modal-footer .btn:hover {
-    background-color: #403D39;
+    background-color: #403d39;
 }
 /* ------ End About Modal ------ */
+
+/* ------ Gallery Images ------ */
+.gallery h3 {
+    color: #252422;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.gallery hr {
+    width: 200px;
+    border: 1px solid #252422;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    box-shadow: 0px 0px 15px 0px #252422;
+    margin: 20px auto;
+}
+
+.gallery .container-fluid {
+    display: none;
+}
+
+.gallery .container-fluid:target {
+    display: block;
+    background-color: #fffcf2;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+/* ------ End Gallery Images ------ */
 
 /* ------ Social Media Links ------ */
 .social-links {
@@ -129,7 +185,7 @@ body {
 .social-links i:hover,
 .btn-gallery:hover {
     background-color: rgba(204, 197, 185, 0.5);
-    color: #FFFCF2;
+    color: #fffcf2;
     transition: 0.35s ease-in-out;
 }
 /* ------ End Button Hover ------ */
