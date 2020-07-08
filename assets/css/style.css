@@ -1,0 +1,110 @@
+/* ------ Google Fonts ------ */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Raleway:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0;
+  color: #fffcf2;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+/* ------ Background Image ------ */
+.bg-img-home {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/cavapoo-window.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+/* ------ End Background Image ------ */
+
+/* ------ NavBar ------ */
+.navbar {
+    margin: 20px;
+    padding: 0;
+}
+
+.navbar .navbar-brand {
+    color: #ccc5b9;
+    padding: 10px;
+}
+
+.navbar .navbar-brand:hover {
+    color: #fffcf2;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+    outline: none;
+    color: #fffcf2;
+    padding: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ccc5b9;
+    padding: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link:active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#FFFCF2;
+}
+/* ------ End NavBar ------ */
+
+/* ------ Page Title ------ */
+.page-title {
+    padding: 20px;
+    height: 80vh;
+}
+/* ------ End Page Title ------ */
+
+/* ------ Buttons ------ */
+.btn-gallery {
+    color: #fffcf2;
+    border: 1.5px solid #fffcf2;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+/* ------ End Buttons ------ */
+
+/* ------ Social Media Links ------ */
+.social-links {
+    margin: 20px;
+    padding: 10px;
+}
+.social-links i {
+    color: #fffcf2;
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    border: 1.5px solid #fffcf2;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 0 15px;
+}
+/* ------ End Social Media Links ------ */
+
+/* ------ Button Hover ------ */
+.social-links i:hover,
+.btn-gallery:hover {
+    background-color: rgba(204, 197, 185, 0.5);
+    color: #FFFCF2;
+    transition: 0.35s ease-in-out;
+}
+/* ------ End Button Hover ------ */
+
+/* ------ Media Queries ------ */
+@media screen and (max-width: 425px) { /* Mobile Screen Size */
+    .page-title h1 {
+        font-size: 1.8rem; /* Before 2.5rem */
+    }
+
+    .btn-gallery {
+        font-size: 0.8rem; /* Before 1rem */
+    }
+
+    .social-links i {
+        font-size: 0.8rem; /* Before 1rem */
+    }
+}
+/* ------ End Media Queries ------ */
