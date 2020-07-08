@@ -2,7 +2,7 @@
 
 Kirsty Chatterton Photography is a personal photography portfolio, showcasing my work as a hobbyist photographer.
 
-A demo of the website can be found here:
+A demo of the website can be found here: [www.kirstychattertonphotography.com](https://kirstchat.github.io/kirsty-chatterton-photography/)
 
 ---
 
