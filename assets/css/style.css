@@ -68,6 +68,47 @@ body {
 }
 /* ------ End Buttons ------ */
 
+/* ------ About Modal ------ */
+.modal-content {
+    background-color: #FFFCF2;
+    padding: 20px;
+}
+
+.modal-header {
+    color: #252422;
+    border-bottom: none;
+    padding: 20px;
+}
+
+.modal-body {
+    color: #252422;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2;
+    padding: 0 20px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.modal-body .about-img {
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-footer .btn {
+    background-color: #252422;
+    color: #FFFCF2;
+    padding: 10px 40px;
+}
+
+.modal-footer .btn:hover {
+    background-color: #403D39;
+}
+/* ------ End About Modal ------ */
+
 /* ------ Social Media Links ------ */
 .social-links {
     margin: 20px;
