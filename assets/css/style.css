@@ -21,190 +21,209 @@ body {
 
 .bg-img-gallery {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/landscapes/belfast-sunrise.jpg") no-repeat center center fixed;
+    url("../images/landscapes/belfast-sunrise.jpg") no-repeat center center
+      fixed;
+  background-size: cover;
+}
+
+.bg-img-contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/events/woman-singing.jpg") no-repeat center center
+      fixed;
   background-size: cover;
 }
 /* ------ End Background Image ------ */
 
 /* ------ NavBar ------ */
 .navbar {
-    margin: 20px;
-    padding: 0;
+  margin: 20px;
+  padding: 0;
 }
 
 .navbar .navbar-brand {
-    color: #ccc5b9;
-    padding: 10px;
+  color: #ccc5b9;
+  padding: 10px;
 }
 
 .navbar .navbar-brand:hover {
-    color: #fffcf2;
+  color: #fffcf2;
 }
 
 .navbar .navbar-toggler {
-    border: none;
-    outline: none;
-    color: #fffcf2;
-    padding: 10px;
+  border: none;
+  outline: none;
+  color: #fffcf2;
+  padding: 10px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #ccc5b9;
-    padding: 10px;
+  color: #ccc5b9;
+  padding: 10px;
 }
 
 .navbar-dark .navbar-nav .nav-link:active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color:#fffcf2;
+  color: #fffcf2;
 }
 /* ------ End NavBar ------ */
 
 /* ------ Page Title ------ */
 .page-title {
-    padding: 20px;
-    height: 80vh;
+  padding: 20px;
+  height: 80vh;
 }
 
 .page-title h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 /* ------ End Page Title ------ */
 
 /* ------ Buttons ------ */
 .btn-gallery {
-    color: #252422;
-    background-color: #fffcf2;
-    padding: 15px 30px;
-    margin: 20px;
-    width: 250px;
-    font-weight: 500;
+  color: #252422;
+  background-color: #fffcf2;
+  padding: 15px 30px;
+  margin: 20px;
+  width: 250px;
+  font-weight: 500;
 }
 
 .btn-close {
-    background-color: #252422;
-    color: #fffcf2;
-    padding: 15px 30px;
-    font-weight: 300;
-    letter-spacing: 5px;
-    margin-top: 20px;
-    width: 250px;
+  background-color: #252422;
+  color: #fffcf2;
+  padding: 15px 30px;
+  font-weight: 300;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  width: 250px;
 }
 /* ------ End Buttons ------ */
 
-/* ------ About Modal ------ */
-.modal-content {
-    background-color: #FFFCF2;
-    padding: 20px;
-}
-
-.modal-header {
-    color: #252422;
-    border-bottom: none;
-    padding: 20px;
-}
-
-.modal-body {
-    color: #252422;
-    font-family: 'Raleway', sans-serif;
-    line-height: 2;
-    padding: 0 20px;
-    letter-spacing: 0;
-    text-transform: none;
-}
-
-.modal-body .about-img {
-    max-width: 50%;
-    margin-bottom: 20px;
-}
-
-.modal-footer {
-    border-top: none;
-}
-
-.modal-footer .btn {
-    background-color: #252422;
-    color: #fffcf2;
-    padding: 10px 40px;
-}
-
-.modal-footer .btn:hover {
-    background-color: #403d39;
-}
-/* ------ End About Modal ------ */
-
 /* ------ Gallery Images ------ */
 .gallery h3 {
-    color: #fffcf2;
-    font-size: 2rem;
-    margin: 20px auto;
+  color: #fffcf2;
+  font-size: 2rem;
+  margin: 20px auto;
 }
 
 .gallery hr {
-    width: 200px;
-    border: 1px solid #fffcf2;
-    margin-bottom: 20px;
+  width: 200px;
+  border: 1px solid #fffcf2;
+  margin-bottom: 20px;
 }
 
 .gallery img {
-    border: 15px solid #fffcf2;
-    margin: 20px auto;
+  border: 15px solid #fffcf2;
+  margin: 20px auto;
 }
 
 .gallery .container-fluid {
-    display: none;
+  display: none;
 }
 
 .gallery .container-fluid:target {
-    display: block;
-    padding: 40px;
-    margin-bottom: 20px;
+  display: block;
+  padding: 40px;
+  margin-bottom: 20px;
 }
 /* ------ End Gallery Images ------ */
 
+/* ------ Contact Form ------ */
+.contact-form {
+    background-color: #fffcf2;
+    color: #252422;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+}
+/* ------ End Contact Form ------ */
+
+/* ------ About Modal ------ */
+.modal-content {
+  background-color: #fffcf2;
+  padding: 20px;
+}
+
+.modal-header {
+  color: #252422;
+  border-bottom: none;
+  padding: 20px;
+}
+
+.modal-body {
+  color: #252422;
+  font-family: "Raleway", sans-serif;
+  line-height: 2;
+  padding: 0 20px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.modal-body .about-img {
+  max-width: 50%;
+  margin-bottom: 20px;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.modal-footer .btn {
+  background-color: #252422;
+  color: #fffcf2;
+  padding: 10px 40px;
+}
+
+.modal-footer .btn:hover {
+  background-color: #403d39;
+}
+/* ------ End About Modal ------ */
+
 /* ------ Social Media Links ------ */
 .social-links {
-    margin: 20px;
-    padding: 10px;
+  margin: 20px;
+  padding: 10px;
 }
 .social-links i {
-    color: #252422;
-    background-color: #fffcf2;
-    font-size: 1.2rem;
-    letter-spacing: 0;
-    border-radius: 50%;
-    padding: 15px;
-    margin: 0 15px;
+  color: #252422;
+  background-color: #fffcf2;
+  font-size: 1.2rem;
+  letter-spacing: 0;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 0 15px;
 }
 /* ------ End Social Media Links ------ */
 
 /* ------ Hover States ------ */
 .social-links i:hover,
 .btn-gallery:hover {
-    background-color: #252422;
-    color: #fffcf2;
-    transition: 0.35s ease-in-out;
+  background-color: #252422;
+  color: #fffcf2;
+  transition: 0.35s ease-in-out;
 }
 
 .btn-close:hover {
-    background-color: #403d39;
-    color: #fffcf2;
-    transition: 0.35s ease-in-out;
+  background-color: #403d39;
+  color: #fffcf2;
+  transition: 0.35s ease-in-out;
 }
 /* ------ End Hover States ------ */
 
 /* ------ Media Queries ------ */
-@media screen and (max-width: 425px) { /* Large Mobile Screen Size */
-    .page-title h1 {
-        font-size: 1.8rem; /* Before 2.5rem */
-    }
+@media screen and (max-width: 425px) {
+  /* Large Mobile Screen Size */
+  .page-title h1 {
+    font-size: 1.8rem; /* Before 2.5rem */
+  }
 
-    .btn-gallery {
-        font-size: 0.8rem; /* Before 1rem */
-    }
+  .btn-gallery {
+    font-size: 0.8rem; /* Before 1rem */
+  }
 
-    .social-links i {
-        font-size: 0.8rem; /* Before 1rem */
-    }
+  .social-links i {
+    font-size: 0.8rem; /* Before 1rem */
+  }
 }
 /* ------ End Media Queries ------ */
