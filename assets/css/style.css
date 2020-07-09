@@ -9,6 +9,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
+  overscroll-behavior: contain;
 }
 
 /* ------ Background Image ------ */
@@ -86,11 +87,7 @@ body {
     font-weight: 300;
     letter-spacing: 5px;
     margin-top: 20px;
-}
-
-.btn-close:hover {
-    background-color: #403d39;
-    color: #FFFCF2;
+    width: 250px;
 }
 /* ------ End Buttons ------ */
 
@@ -149,7 +146,7 @@ body {
 }
 
 .gallery img {
-    box-shadow: 0px 0px 15px 0px #252422;
+    box-shadow: 0px 0px 10px #252422;
     margin: 20px auto;
 }
 
@@ -181,17 +178,23 @@ body {
 }
 /* ------ End Social Media Links ------ */
 
-/* ------ Button Hover ------ */
+/* ------ Hover States ------ */
 .social-links i:hover,
 .btn-gallery:hover {
     background-color: rgba(204, 197, 185, 0.5);
     color: #fffcf2;
     transition: 0.35s ease-in-out;
 }
-/* ------ End Button Hover ------ */
+
+.btn-close:hover {
+    background-color: #403d39;
+    color: #FFFCF2;
+    transition: 0.35s ease-in-out;
+}
+/* ------ End Hover States ------ */
 
 /* ------ Media Queries ------ */
-@media screen and (max-width: 425px) { /* Mobile Screen Size */
+@media screen and (max-width: 425px) { /* Large Mobile Screen Size */
     .page-title h1 {
         font-size: 1.8rem; /* Before 2.5rem */
     }
