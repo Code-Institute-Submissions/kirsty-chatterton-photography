@@ -47,9 +47,7 @@
           id="navbarToggler"
         >
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html"
-              >Home<span class="sr-only">(current)</span></a
-            >
+            <a class="nav-item nav-link active" href="index.html">Home</a>
             <a
               class="nav-item nav-link"
               data-toggle="modal"
@@ -57,8 +55,10 @@
               href="#"
               >About</a
             >
-            <a class="nav-item nav-link" href="gallery.html">Gallery</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
+            <a class="nav-item nav-link" href="gallery.html"
+              >Gallery<span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </nav>
@@ -67,16 +67,14 @@
     <!-- Page Title with Buttons -->
     <section
       id="gallery-top"
-      class="page-title d-flex flex-column justify-content-center align-item"
+      class="page-title d-flex flex-column justify-content-center align-items-center"
     >
       <div class="title-center">
         <h1>Gallery</h1>
-        <div>
-          <a href="#events" class="btn btn-gallery">Events</a>
-          <a href="#landscapes" class="btn btn-gallery">Landscapes</a>
-          <a href="#pets" class="btn btn-gallery">Pets</a>
-          <a href="#street" class="btn btn-gallery">Street</a>
-        </div>
+        <a href="#events" class="btn btn-gallery">Events</a>
+        <a href="#landscapes" class="btn btn-gallery">Landscapes</a>
+        <a href="#pets" class="btn btn-gallery">Pets</a>
+        <a href="#street" class="btn btn-gallery">Street</a>
       </div>
     </section>
 
@@ -139,6 +137,23 @@
       </div>
     </section>
 
+    <!-- Landscape Gallery Images -->
+    <section class="gallery">
+      <div id="landscapes" class="container-fluid">
+        <h3>Landscapes</h3>
+        <hr />
+        <div class="row">
+          <div class="col-md-12 col-lg-6">
+            <img
+              class="img-fluid"
+              src="assets/images/belfast-sunrise.jpg"
+              alt="Sunrise in Belfast Titanic Quarter"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Pet Gallery Images -->
     <section class="gallery">
       <div id="pets" class="container-fluid">
@@ -162,6 +177,11 @@
               class="img-fluid"
               src="assets/images/pets/cavapoo-running.jpg"
               alt="Cavapoo Puppy Running"
+            />
+            <img
+              class="img-fluid"
+              src="assets/images/cavapoo-window.jpg"
+              alt="Cavapoo Puppy Looking out a Window"
             />
           </div>
         </div>
