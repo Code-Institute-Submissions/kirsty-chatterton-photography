@@ -15,13 +15,13 @@ body {
 /* ------ Background Image ------ */
 .bg-img-home {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/cavapoo-window.jpg") no-repeat center center fixed;
+    url("../images/pets/cavapoo-window.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
 .bg-img-gallery {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/belfast-sunrise.jpg") no-repeat center center fixed;
+    url("../images/landscapes/belfast-sunrise.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 /* ------ End Background Image ------ */
@@ -67,7 +67,7 @@ body {
 
 .page-title h1 {
     font-size: 2.5rem;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 /* ------ End Page Title ------ */
 
@@ -135,19 +135,19 @@ body {
 
 /* ------ Gallery Images ------ */
 .gallery h3 {
-    color: #252422;
+    color: #fffcf2;
     font-size: 2rem;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 .gallery hr {
     width: 200px;
-    border: 1px solid #252422;
+    border: 1px solid #fffcf2;
     margin-bottom: 20px;
 }
 
 .gallery img {
-    box-shadow: 0px 0px 10px #252422;
+    border: 15px solid #fffcf2;
     margin: 20px auto;
 }
 
@@ -157,7 +157,6 @@ body {
 
 .gallery .container-fluid:target {
     display: block;
-    background-color: #fffcf2;
     padding: 40px;
     margin-bottom: 20px;
 }
