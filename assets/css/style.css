@@ -67,17 +67,18 @@ body {
 
 .page-title h1 {
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 /* ------ End Page Title ------ */
 
 /* ------ Buttons ------ */
 .btn-gallery {
-    color: #fffcf2;
-    border: 1.5px solid #fffcf2;
+    color: #252422;
+    background-color: #fffcf2;
     padding: 15px 30px;
     margin: 20px;
     width: 250px;
+    font-weight: 500;
 }
 
 .btn-close {
@@ -168,10 +169,10 @@ body {
     padding: 10px;
 }
 .social-links i {
-    color: #fffcf2;
+    color: #252422;
+    background-color: #fffcf2;
     font-size: 1.2rem;
     letter-spacing: 0;
-    border: 1.5px solid #fffcf2;
     border-radius: 50%;
     padding: 15px;
     margin: 0 15px;
@@ -181,14 +182,14 @@ body {
 /* ------ Hover States ------ */
 .social-links i:hover,
 .btn-gallery:hover {
-    background-color: rgba(204, 197, 185, 0.5);
+    background-color: #252422;
     color: #fffcf2;
     transition: 0.35s ease-in-out;
 }
 
 .btn-close:hover {
     background-color: #403d39;
-    color: #FFFCF2;
+    color: #fffcf2;
     transition: 0.35s ease-in-out;
 }
 /* ------ End Hover States ------ */
