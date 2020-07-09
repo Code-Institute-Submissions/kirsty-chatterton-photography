@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Title -->
+    <title>Contact - Kirsty Chatterton Photography</title>
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body class="bg-img-contact">
+    <!-- NavBar -->
+    <header class="uppercase">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html"
+          ><i class="fas fa-camera-retro"></i>KCP</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggler"
+          aria-controls="navbarToggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarToggler"
+        >
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Home</a>
+            <a
+              class="nav-item nav-link"
+              data-toggle="modal"
+              data-target="#exampleModal"
+              href="#"
+              >About</a
+            >
+            <a class="nav-item nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-item nav-link active" href="contact.html"
+              >Contact<span class="sr-only">(current)</span></a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contact Form -->
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <h1>Contact Me</h1>
+          <p>
+            Want to hire me or have any other questions? Please fill out the
+            form and I will be in touch with you as soon as possible. I look
+            forward to working with you!
+          </p>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input class="form-control" type="text" id="name" placeholder="Please Enter Your Full Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input class="form-control" type="email" id="email" placeholder="Please Enter Your Email Address" required>
+            </div>
+            <!-- <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="" value="">
+                <label class="form-check-label" for="">Booking a Session</label>
+            </div> -->
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" placeholder="Type Your Message Here..." cols="30" rows="10"></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header mx-auto">
+            <h5 class="modal-title" id="exampleModalLabel">About</h5>
+          </div>
+          <div class="modal-body">
+            <img
+              class="about-img"
+              src="assets/images/profile-circle.jpg"
+              alt="Kirsty Chatterton profile picture"
+            />
+            <p>
+              Hi, I'm Kirsty and I’m a hobbyist photographer.<br />Originally
+              born and bred in Northern Ireland, I currently live and work in
+              Devon as a full-time musician and social media representative in
+              The Band of Her Majesty’s Royal Marines. As well as photographing
+              events within the band, I can always be found with a camera in my
+              hand capturing a range of styles such as landscapes, pets and
+              street photography.
+            </p>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Media Links -->
+    <footer class="social-links fixed-bottom">
+      <a href="https://www.instagram.com/kchattertonmedia/" target="_blank"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/kirsty-chatterton-154781a4/"
+        target="_blank"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <a href="#"><i class="fas fa-envelope"></i></a>
+    </footer>
+
+    <!-- Bootstrap JavaScript CDN-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
