@@ -88,8 +88,8 @@ body {
 }
 
 .btn-close {
-  background-color: #212529;
-  color: #fcfcfc;
+  background-color: #fcfcfc;
+  color: #212529;
   padding: 15px 30px;
   font-weight: 300;
   letter-spacing: 5px;
@@ -105,16 +105,28 @@ body {
 }
 
 .btn-close:hover {
-  background-color: #495057;
+  background-color: #c2c2c2;
   color: #fcfcfc;
   transition: 0.35s ease-in-out;
 }
 /* ------ End Buttons ------ */
 
 /* ------ Gallery Images ------ */
+#gallery-top {
+  height: 75vh;
+  position: relative;
+}
+
+#gallery-top h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .gallery h3 {
   font-size: 2rem;
-  margin: 20px auto;
+  margin: auto;
 }
 
 .gallery hr {
@@ -127,6 +139,11 @@ body {
   border: 15px solid #fcfcfc;
   margin: 20px auto;
 }
+.gallery-container {
+  background-color: #212529;
+  height: auto;
+  padding: 40px;
+}
 
 .gallery .container-fluid {
   display: none;
@@ -136,12 +153,13 @@ body {
   display: block;
   padding: 40px;
   margin-bottom: 20px;
+  background-color: #212529;
 }
 /* ------ End Gallery Images ------ */
 
 /* ------ Contact Form ------ */
 .contact-container {
-    padding: 40px 30px;
+  padding: 40px 30px;
 }
 
 .contact-form {
@@ -168,11 +186,12 @@ body {
 }
 
 .contact-form .btn:hover {
-    background-color: #495057;
+  background-color: #495057;
 }
 
-.form-group, .form-check {
-    margin-bottom: 20px;
+.form-group,
+.form-check {
+  margin-bottom: 20px;
 }
 /* ------ End Contact Form ------ */
 
@@ -253,7 +272,7 @@ body {
   }
 
   .contact-form {
-      margin-top: 20px;
+    margin-top: 20px;
   }
 
   .social-links i {
