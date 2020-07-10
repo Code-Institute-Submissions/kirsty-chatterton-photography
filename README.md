@@ -185,7 +185,7 @@ The site can be viewed here: [https://kirstchat.github.io/kirsty-chatterton-phot
 ### Code
 
 * [MDN Target Selector](https://developer.mozilla.org/en-US/docs/Web/CSS/:target)/[W3Schools Target Selector](https://www.w3schools.com/cssref/sel_target.asp) - Recommended by my mentor (Antonija Simic) to create a filter like image gallery.
-* [Centering using Flexbox](https://alligator.io/css/centering-using-flexbox/) - I used this to help me understand how to center the text on the site home page. I implemented this using Bootstrap classes.
+* [Quick CSS Trick: How to Center an Object](https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/) - Used to perfectly center the title on index.html.
 
 ### Content
 
