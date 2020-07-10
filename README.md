@@ -18,23 +18,18 @@ A demo of the website can be found here: [www.kirstychattertonphotography.com](h
   * Wireframes
 
 * [**Features**](#features)
+  * Features that have been implemented
+  * Features left to be implemented
 
 * [**Technologies**](#technologies-used)
   * Languages Used
   * Frameworks, Libraries and Programs Used
 
 * [**Testing**](#testing)
-  * Testing User Stories from UX Section
-  * Further Testing
-  * Known Bugs
 
 * [**Deployment**](#deployment)
 
 * [**Credits**](#credits)
-  * Code
-  * Content
-  * Media
-  * Acknowledgements
 
 ---
 
@@ -49,8 +44,16 @@ The goal of this project is to create a personal photography portfolio to show t
 * As a **user**, I want to easily understand the main purpose of the site on my first visit
 * As a **user**, I want to be able to easily navigate throughout the site to find content
 * As a **user**, I want to see what type of work the photographer has done
-* As a **user**, I want to find out more about the photographer and where they're located so I can book them for an event or other photography session
+* As a **user**, I want to find out more about the photographer and where they're located so I can book them for an event or other photography sessions
 * As a **user**, I want to be able to easily contact the photographer to book them for an event or session, and to ask any other quesions I may have about their work
+
+### Site Owner Goals
+
+* As a **site owner**, I want the name of the site to be the main feature of the home page so the user can understand what the site is on their first visit
+* As a **site owner**, I want to include navigation links on every page so the user can easily navigate throughout site
+* As a **site owner**, I want to include a gallery featuring the different styles of images I have captured to show the user what type of work I have done
+* As a **site owner**, I want to include a short bio to give the user a breif overview of who I am and what I do as well as let them know where I'm located if they wish to book a session
+* As a **site owner**, I want to include links to social media pages I am regularly active on so the user can easily contact me and see what I've been up to recently if they're interested
 
 ### Design
 
@@ -64,7 +67,11 @@ Poppins and Raleway
 
 #### Imagery
 
+The images featured on this site are all my own images that I have captured over the last couple of years as part of my job and also in my free time. These include images of work events/gigs, landscapes, street style photography, and my personal favourite - pets. Although for now, this section only features dogs!  
+
 ### Wireframes
+
+The wireframes for my site were created using [Balsamiq](https://balsamiq.com/). The site is made up of three pages with a modal feature on each page which is the "About Me" section. There is also a gallery page and a contact page. I created wireframes for desktop as well as mobile and tablet.
 
 #### Desktop
 
@@ -93,21 +100,21 @@ Poppins and Raleway
 
 ### Features that have been implemented
 
-* Eye-catching background image on all pages
-* Easy to use navigation bar
-* About modal pop-up with a short bio on the photographer
-* Gallery with filtering tabs to showcase photos
-* Contact Form
-  * This will allow the user to email me with any requests they have such as hiring me for an event or booking a photography session, as well as any questions or feedback they may have about my work
-* Social Media links
-* Responsive accross devices
+* Responsive on all devices
+* Eye-catching background/hero image on every page
+* Easy to use navigation bar located at the top of every page with links to all other pages on the site
+* An "About Me" modal on every page with a short bio on the photographer
+* A gallery page with filtering buttons to show the different styles of images
+* A contact form that will allow the user to send a message with any requests they have such as booking me for an event or booking a photography session, as well as any othr questions or feedback they may have about my work
+* Social media links to Instagram and LinkedIn located in the footer on every page
 
-### Featured that will be implemented
+### Features left to be implemented
 
 * Testimonial section
-  * This feature will be added when I have gained more experience/work
+  * This is a feature I'd like to implement when I have gained more experience/work as a photographer
 
 * Blog Posts
+  * This is a potential feature I'd like to implement to show users what equipment I use, other equipment I'd recommend, and tutorial posts to show my photo editing process. This is a feature that will only be implemented if there is enough interest.
 
 ---
 
@@ -115,8 +122,8 @@ Poppins and Raleway
 
 ### Languages
 
-* HTML5
-* CSS3
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ### Frameworks, Libraries and Programs
 
@@ -139,9 +146,37 @@ Poppins and Raleway
 
 ## Testing
 
+### Testing User Stories from UX Section
+
+### Further Testing
+
+### Known Bugs
+
 ---
 
 ## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps:
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository, click on the "Settings" Button on the menu.
+3. Scroll down the Settings page to the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch". The page will automatically refresh.
+5. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+The site can be viewed here: [https://kirstchat.github.io/kirsty-chatterton-photography/](https://kirstchat.github.io/kirsty-chatterton-photography/)
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the GitHub Repository
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open your IDE and open the terminal
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL: [https://github.com/KirstChat/kirsty-chatterton-photography](https://github.com/KirstChat/kirsty-chatterton-photography)
+7. Press Enter. Your local clone will be created.
 
 ---
 
@@ -149,9 +184,8 @@ Poppins and Raleway
 
 ### Code
 
-* [MDN Target Selector](https://developer.mozilla.org/en-US/docs/Web/CSS/:target)
-* [W3Schools Target Selector](https://www.w3schools.com/cssref/sel_target.asp)
-* [Centering using Flexbox](https://alligator.io/css/centering-using-flexbox/)
+* [MDN Target Selector](https://developer.mozilla.org/en-US/docs/Web/CSS/:target)/[W3Schools Target Selector](https://www.w3schools.com/cssref/sel_target.asp) - Recommended by my mentor (Antonija Simic) to create a filter like image gallery.
+* [Centering using Flexbox](https://alligator.io/css/centering-using-flexbox/) - I used this to help me understand how to center the text on the site home page. I implemented this using Bootstrap classes.
 
 ### Content
 
@@ -163,5 +197,5 @@ Poppins and Raleway
 
 ### Acknowledgements
 
-* My mentor Antonija Simic - suggestion to use :target selector to create a filter gallery rather than dropdown menu
+* My mentor Antonija Simic
 * The Code Institute Slack community
