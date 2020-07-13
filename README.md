@@ -184,9 +184,10 @@ The site can be viewed here: [https://kirstchat.github.io/kirsty-chatterton-phot
 
 ### Code
 
-* [MDN Target Selector](https://developer.mozilla.org/en-US/docs/Web/CSS/:target)/[W3Schools Target Selector](https://www.w3schools.com/cssref/sel_target.asp) - Recommended by my mentor (Antonija Simic) to create a filter like image gallery.
+* [MDN Target Selector](https://developer.mozilla.org/en-US/docs/Web/CSS/:target) - Recommended by my mentor (Antonija Simic) to create a filter like image gallery.
 * [CSS Tricks: How to Center an Object](https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/) - Used to perfectly center the title on index.html.
 * [CSS Tricks: Background Image](https://css-tricks.com/perfect-full-page-background-image/) - Used to center a background image on every page.
+* [CSS Tricks: Tinted Images](https://css-tricks.com/tinted-images-multiple-backgrounds/) - Used to add a color overlay on background images.
 
 ### Content
 
