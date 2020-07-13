@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   color: #fcfcfc;
+  font-size: 1rem;
   font-family: "Poppins", sans-serif;
   text-align: center;
   text-transform: uppercase;
@@ -12,6 +13,7 @@ body {
 }
 
 /* ------ Background Image ------ */
+/* Code below is from CSS Tricks: Background Image */
 .bg-img-home {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/pets/cavapoo-window.jpg") no-repeat center center fixed;
@@ -62,14 +64,13 @@ body {
 /* ------ End NavBar ------ */
 
 /* ------ Page Title ------ */
+/* Code below is from CSS Tricks: How to Center an Object */
 .page-title {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-/* Code above is copied from CSS Tricks - Credited in README.md */
 
 .page-title h1 {
   font-size: 2.5rem;
@@ -78,23 +79,14 @@ body {
 /* ------ End Page Title ------ */
 
 /* ------ Buttons ------ */
-.btn-gallery {
+.btn-gallery,
+.btn-close {
   color: #212529;
   background-color: #fcfcfc;
   padding: 15px 30px;
   margin: 20px;
   width: 250px;
   font-weight: 500;
-}
-
-.btn-close {
-  background-color: #fcfcfc;
-  color: #212529;
-  padding: 15px 30px;
-  font-weight: 300;
-  letter-spacing: 5px;
-  margin-top: 20px;
-  width: 250px;
 }
 
 .btn-gallery:hover,
@@ -112,16 +104,11 @@ body {
 /* ------ End Buttons ------ */
 
 /* ------ Gallery Images ------ */
-#gallery-top {
-  height: 75vh;
-  position: relative;
-}
-
-#gallery-top h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.gallery-btns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .gallery h3 {
@@ -135,24 +122,13 @@ body {
   margin-bottom: 20px;
 }
 
-.gallery img {
-  border: 15px solid #fcfcfc;
-  margin: 20px auto;
-}
-.gallery-container {
-  background-color: #212529;
-  height: auto;
-  padding: 40px;
-}
-
+/* Code below is from MDN/W3Schools tutorials on using the :target selector */
 .gallery .container-fluid {
   display: none;
 }
 
 .gallery .container-fluid:target {
   display: block;
-  padding: 40px;
-  margin-bottom: 20px;
   background-color: #212529;
 }
 /* ------ End Gallery Images ------ */
@@ -254,7 +230,7 @@ body {
 
 /* ------ Media Queries ------ */
 @media screen and (max-width: 425px) {
-  /* Large Mobile Screen Size */
+  /* Large Mobile Screen Size - Portrait */
   .navbar-dark .navbar-nav .nav-link {
     padding-top: 0;
   }
@@ -277,6 +253,41 @@ body {
 
   .social-links i {
     font-size: 0.8rem; /* Before 1rem */
+  }
+}
+
+@media screen and (max-width: 812px) and (orientation: landscape) {
+  /* Large Mobile Screen Size - Landscape */
+  .navbar-dark .navbar-nav .nav-link {
+    padding-top: 0;
+  }
+
+  .navbar-nav {
+    align-items: flex-end;
+  }
+
+  .page-title h1 {
+    font-size: 1.6rem; /* Before 2.5rem */
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
+
+  .btn-gallery {
+    font-size: 0.8rem; /* Before 1rem */
+    width: 175px;
+    padding: 10px;
+  }
+
+  .contact-form {
+    margin-top: 20px;
+  }
+
+  .social-links i {
+    font-size: 0.8rem; /* Before 1rem */
+  }
+
+  .social-links {
+      margin-bottom: 10px;
   }
 }
 /* ------ End Media Queries ------ */
