@@ -15,13 +15,13 @@ body {
 /* ------ Background Image ------ */
 /* Code below is from CSS Tricks: Background Image */
 .bg-img-home {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/pets/cavapoo-window.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
 .bg-img-gallery {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/landscapes/belfast-sunrise.jpg") no-repeat center center
       fixed;
   background-size: cover;
@@ -143,7 +143,7 @@ body {
 }
 
 .gallery img {
-    padding: 10px;
+  padding: 10px;
 }
 
 /* Code below is from MDN tutorials on using the :target selector */
