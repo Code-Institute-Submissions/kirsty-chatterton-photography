@@ -20,7 +20,7 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <!-- Stylesheet -->
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
@@ -67,87 +67,105 @@
     <!-- Page Title with Buttons -->
     <section id="gallery-top">
       <h1>Gallery</h1>
-    </section>
-
-    <section class="gallery-container">
-      <a href="#events" class="btn btn-gallery">Events</a>
-      <a href="#landscapes" class="btn btn-gallery">Landscapes</a>
-      <a href="#pets" class="btn btn-gallery">Pets</a>
-      <a href="#street" class="btn btn-gallery">Street</a>
-      <!-- Event Gallery Images -->
-      <div class="gallery">
-        <div id="events" class="container-fluid">
-          <h3>Events</h3>
-          <hr />
-          <div class="row">
-            <div class="col-md-12 col-lg-6">
-              <img
-                class="img-fluid"
-                src="assets/images/events/woman-singing.jpg"
-                alt="Woman Singing"
-              />
-              <img
-                class="img-fluid"
-                src="assets/images/events/man-singing.jpg"
-                alt="Man Singing"
-              />
-              <img
-                class="img-fluid"
-                src="assets/images/events/drum-kit-player.jpg"
-                alt="Man Playing Drum Kit"
-              />
-              <img
-                class="img-fluid"
-                src="assets/images/events/drummers.jpg"
-                alt="Three People Playing Military Side Drum"
-              />
-            </div>
-            <div class="col-md-12 col-lg-6">
-              <img
-                class="img-fluid"
-                src="assets/images/events/trumpet-player.jpg"
-                alt="Man Playing Trumpet"
-              />
-              <img
-                class="img-fluid"
-                src="assets/images/events/guitarist.jpg"
-                alt="Man Playing Electric Guitar"
-              />
-              <img
-                class="img-fluid"
-                src="assets/images/events/bass-player.jpg"
-                alt="Man Playing Bass Guitar"
-              />
-              <img
-                class="img-fluid"
-                src="assets/images/events/saxophone-player.jpg"
-                alt="A Group of People Playing Saxophone"
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <a class="btn btn-close" href="#gallery-top">Close</a>
-            </div>
-          </div>
-        </div>
+      <div class="gallery-btns">
+        <a href="#events" class="btn btn-gallery">Events</a>
+        <a href="#landscapes" class="btn btn-gallery">Landscapes</a>
+        <a href="#pets" class="btn btn-gallery">Pets</a>
+        <a href="#street" class="btn btn-gallery">Street</a>
       </div>
     </section>
 
     <!-- Event Gallery Images -->
+    <section class="gallery">
+      <div id="events" class="container-fluid">
+        <h3>Events</h3>
+        <hr />
+        <div class="row no-gutters">
+          <div class="col-md-12 col-lg-6">
+            <img
+                class="img-fluid"
+                src="assets/images/events/woman-singing.jpg"
+                alt="Woman Singing"
+              />
+            <img
+              class="img-fluid"
+              src="assets/images/events/man-singing.jpg"
+              alt="Man Singing"
+            />
+            <img
+              class="img-fluid"
+              src="assets/images/events/drum-kit-player.jpg"
+              alt="Man Playing Drum Kit"
+            />
+            <img
+              class="img-fluid"
+              src="assets/images/events/girl-playing-saxophone.jpg"
+              alt="Girl Playing Saxophone"
+            />
+            <img
+              class="img-fluid"
+              src="assets/images/events/gladiator-battle.jpg"
+              alt="Inflatable Gladiator Battle"
+            />
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <img
+              class="img-fluid"
+              src="assets/images/events/trumpet-player.jpg"
+              alt="Man Playing Trumpet"
+            />
+            <img
+              class="img-fluid"
+              src="assets/images/events/guitarist.jpg"
+              alt="Man Playing Electric Guitar"
+            />
+            <img
+              class="img-fluid"
+              src="assets/images/events/bass-player.jpg"
+              alt="Man Playing Bass Guitar"
+            />
+            <img
+              class="img-fluid"
+              src="assets/images/events/trumpets-trombones.jpg"
+              alt="A Group of Trumpet and Trombone Players"
+            />
+            <img
+              class="img-fluid"
+              src="assets/images/events/gladiator-battle-2.jpg"
+              alt="Inflatable Gladiator Battle"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a class="btn btn-close" href="#gallery-top">Close</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Landscape Gallery Images -->
     <section class="gallery">
       <div id="landscapes" class="container-fluid">
         <h3>Landscapes</h3>
         <hr />
-        <div class="row">
+        <div class="row no-gutters">
           <div class="col-md-12 col-lg-6">
             <img
               class="img-fluid"
               src="assets/images/landscapes/belfast-sunrise.jpg"
               alt="Sunrise in Belfast Titanic Quarter"
             />
+            <img
+              class="img-fluid"
+              src="assets/images/landscapes/titanic-museum.jpg"
+              alt="Titanic Museum Belfast"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a class="btn btn-close" href="#gallery-top">Close</a>
           </div>
         </div>
       </div>
@@ -158,7 +176,7 @@
       <div id="pets" class="container-fluid">
         <h3>Pets</h3>
         <hr />
-        <div class="row">
+        <div class="row no-gutters">
           <div class="col-md-12 col-lg-6">
             <img
               class="img-fluid"
