@@ -40,6 +40,10 @@ body {
   padding: 0;
 }
 
+.navbar-nav {
+  align-items: flex-end;
+}
+
 .navbar .navbar-brand {
   color: #f2f2f2;
   padding: 10px;
@@ -81,12 +85,21 @@ body {
 /* ------ Buttons ------ */
 .btn-gallery,
 .btn-close {
-  color: #212529;
-  background-color: #fcfcfc;
   padding: 15px 30px;
   margin: 20px;
   width: 250px;
   font-weight: 500;
+}
+
+.btn-gallery {
+  color: #212529;
+  background-color: #fcfcfc;
+}
+
+.btn-close {
+  color: #fcfcfc;
+  background-color: #212529;
+  margin-bottom: 30px;
 }
 
 .btn-gallery:hover,
@@ -104,32 +117,43 @@ body {
 /* ------ End Buttons ------ */
 
 /* ------ Gallery Images ------ */
-.gallery-btns {
+#gallery-top {
+  height: 80vh;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
+  align-items: center;
   justify-content: center;
-  align-items: flex-end;
+}
+
+.gallery-btns {
+  margin-top: 40px;
 }
 
 .gallery h3 {
   font-size: 2rem;
+  color: #212529;
+  padding: 40px 0 20px;
   margin: auto;
 }
 
 .gallery hr {
-  width: 200px;
-  border: 1px solid #fcfcfc;
+  width: 40%;
+  border: 1px solid #212529;
   margin-bottom: 20px;
 }
 
-/* Code below is from MDN/W3Schools tutorials on using the :target selector */
+.gallery img {
+    padding: 10px;
+}
+
+/* Code below is from MDN tutorials on using the :target selector */
 .gallery .container-fluid {
   display: none;
 }
 
 .gallery .container-fluid:target {
   display: block;
-  background-color: #212529;
+  background-color: #fcfcfc;
 }
 /* ------ End Gallery Images ------ */
 
@@ -217,6 +241,7 @@ body {
   margin: 20px;
   padding: 10px;
 }
+
 .social-links i {
   color: #212529;
   background-color: #fcfcfc;
@@ -229,8 +254,9 @@ body {
 /* ------ End Social Media Links ------ */
 
 /* ------ Media Queries ------ */
-@media screen and (max-width: 425px) {
-  /* Large Mobile Screen Size - Portrait */
+@media screen and (max-width: 425px),
+  (max-width: 812px) and (orientation: landscape) {
+  /* Large Mobile Screen Size - Portrait and Landscape */
   .navbar-dark .navbar-nav .nav-link {
     padding-top: 0;
   }
@@ -256,38 +282,9 @@ body {
   }
 }
 
-@media screen and (max-width: 812px) and (orientation: landscape) {
-  /* Large Mobile Screen Size - Landscape */
-  .navbar-dark .navbar-nav .nav-link {
-    padding-top: 0;
-  }
-
-  .navbar-nav {
-    align-items: flex-end;
-  }
-
-  .page-title h1 {
-    font-size: 1.6rem; /* Before 2.5rem */
-    margin-bottom: 0;
-    margin-top: 40px;
-  }
-
-  .btn-gallery {
-    font-size: 0.8rem; /* Before 1rem */
-    width: 175px;
-    padding: 10px;
-  }
-
-  .contact-form {
-    margin-top: 20px;
-  }
-
-  .social-links i {
-    font-size: 0.8rem; /* Before 1rem */
-  }
-
-  .social-links {
-      margin-bottom: 10px;
+@media screen and (max-width: 1024px) {
+  .gallery-btns {
+    width: 60vw;
   }
 }
 /* ------ End Media Queries ------ */
