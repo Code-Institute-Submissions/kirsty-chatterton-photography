@@ -27,7 +27,7 @@
   <body class="bg-img-contact">
     <!-- NavBar -->
     <header>
-    <!-- Code below is from Bootstrap documentation - Credited in README.md-->
+      <!-- Code below is from Bootstrap documentation - Credited in README.md-->
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="index.html"
           ><i class="fas fa-camera-retro"></i>KCP</a
@@ -69,39 +69,86 @@
     <section class="container-fluid contact-container">
       <div class="row">
         <div class="col-md-12 col-lg-7 align-self-center">
-          <h1>Contact Me</h1>
-          <p>
-            Want to book a seesion<br>or have any other questions?<br>Please fill in the
-            form and I will be in touch with you as soon as possible.<br>I look
-            forward to hearing from you!
-          </p>
+          <div class="contact-description">
+            <h1>Contact Me</h1>
+            <p>
+              Want to book a seesion<br />or have any other questions?<br />Please
+              fill in the form and I will be in touch with you as soon as
+              possible.<br />I look forward to hearing from you!
+            </p>
+          </div>
         </div>
         <div class="col-md-12 col-lg-5 align-self-center">
           <form class="contact-form">
             <div class="form-group">
-                <label for="name">Name:</label>
-                <input class="form-control" type="text" id="name" name="full_name" placeholder="Please Enter Your Full Name" required>
+              <label for="name">Name:</label>
+              <input
+                class="form-control"
+                type="text"
+                id="name"
+                name="full_name"
+                placeholder="Please Enter Your Full Name"
+                required
+              />
             </div>
             <div class="form-group">
-                <label for="email">Email:</label>
-                <input class="form-control" type="email" id="email" name="email_address" placeholder="Please Enter Your Email Address" required>
+              <label for="email">Email:</label>
+              <input
+                class="form-control"
+                type="email"
+                id="email"
+                name="email_address"
+                placeholder="Please Enter Your Email Address"
+                required
+              />
             </div>
             <p>I'm interested in:</p>
             <div class="form-check">
-                <input class="form-check-input" type="radio" id="booking" name="interest" value="booking" required>
-                <label class="form-check-label" for="booking">Making a Booking</label>
-                <br>
-                <input class="form-check-input" type="radio" id="print" name="interest" value="print">
-                <label class="form-check-label" for="print">Requesting a Print</label>
-                <br>
-                <input class="form-check-input" type="radio" id="other" name="interest" value="other">
-                <label class="form-check-label" for="other">Other</label>
+              <input
+                class="form-check-input"
+                type="radio"
+                id="booking"
+                name="interest"
+                value="booking"
+                required
+              />
+              <label class="form-check-label" for="booking"
+                >Making a Booking</label
+              >
+              <br />
+              <input
+                class="form-check-input"
+                type="radio"
+                id="print"
+                name="interest"
+                value="print"
+              />
+              <label class="form-check-label" for="print"
+                >Requesting a Print</label
+              >
+              <br />
+              <input
+                class="form-check-input"
+                type="radio"
+                id="other"
+                name="interest"
+                value="other"
+              />
+              <label class="form-check-label" for="other">Other</label>
             </div>
             <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea class="form-control" id="message" name="message" placeholder="Type Your Message Here..." required></textarea>
+              <label for="message">Message:</label>
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                placeholder="Type Your Message Here..."
+                required
+              ></textarea>
             </div>
-            <button type="submit" class="btn">Submit <i class="fas fa-paper-plane"></i></button>
+            <button type="submit" class="btn">
+              Submit <i class="fas fa-paper-plane"></i>
+            </button>
           </form>
         </div>
       </div>
