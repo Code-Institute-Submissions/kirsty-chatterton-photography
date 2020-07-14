@@ -13,7 +13,7 @@ body {
 }
 
 /* ------ Background Image ------ */
-/* Code below is from CSS Tricks: Background Image */
+/* Code below is from CSS Tricks: Background Images and CSS Tricks: Tinted Images*/
 .bg-img-home {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/pets/cavapoo-window.jpg") no-repeat center center fixed;
@@ -96,29 +96,29 @@ body {
   background-color: #fcfcfc;
 }
 
+.btn-gallery:hover,
+.social-links i:hover {
+  background-color: #212529;
+  color: #fcfcfc;
+  transition: 0.15s ease-in-out;
+}
+
 .btn-close {
   color: #fcfcfc;
   background-color: #212529;
   margin-bottom: 30px;
 }
 
-.btn-gallery:hover,
-.social-links i:hover {
-  background-color: #212529;
-  color: #fcfcfc;
-  transition: 0.35s ease-in-out;
-}
-
 .btn-close:hover {
   background-color: #c2c2c2;
   color: #fcfcfc;
-  transition: 0.35s ease-in-out;
+  transition: 0.15s ease-in-out;
 }
 /* ------ End Buttons ------ */
 
 /* ------ Gallery Images ------ */
 #gallery-top {
-  height: 80vh;
+  height: 78.5vh;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -162,6 +162,15 @@ body {
   padding: 40px 30px;
 }
 
+.contact-description {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact-description h1 {
+  margin-bottom: 20px;
+}
+
 .contact-form {
   background-color: #fcfcfc;
   color: #212529;
@@ -169,6 +178,7 @@ body {
   border-radius: 5px;
   padding: 40px;
   text-align: left;
+  text-transform: none;
 }
 
 .contact-form textarea {
@@ -262,29 +272,33 @@ body {
   }
 
   .page-title h1 {
-    font-size: 1.6rem; /* Before 2.5rem */
+    font-size: 2rem; /* Before 2.5rem */
     margin-bottom: 0;
     margin-top: 40px;
   }
 
-  .btn-gallery {
-    font-size: 0.8rem; /* Before 1rem */
-    width: 175px;
-    padding: 10px;
-  }
-
   .contact-form {
     margin-top: 20px;
+    padding: 30px;
   }
 
-  .social-links i {
-    font-size: 0.8rem; /* Before 1rem */
+  .contact-container {
+      padding-bottom: 0;
+  }
+
+  .contact-description {
+    width: 100%;
+  }
+
+  .contact-description h1 {
+    font-size: 2rem; /* Before 2.5rem */
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .gallery-btns {
+  #gallery-top {
     width: 60vw;
+    margin: 0 auto;
   }
 }
 /* ------ End Media Queries ------ */
