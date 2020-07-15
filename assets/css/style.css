@@ -159,12 +159,7 @@ body {
 
 /* ------ Contact Form ------ */
 .contact-container {
-  padding: 40px 30px;
-}
-
-.contact-description {
-  width: 60%;
-  margin: 0 auto;
+  padding: 50px 30px;
 }
 
 .contact-description h1 {
@@ -176,7 +171,7 @@ body {
   color: #212529;
   font-family: "Raleway", sans-serif;
   border-radius: 5px;
-  padding: 40px;
+  padding: 30px;
   text-align: left;
   text-transform: none;
 }
@@ -259,14 +254,13 @@ body {
   letter-spacing: 0;
   border-radius: 50%;
   padding: 15px;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 /* ------ End Social Media Links ------ */
 
 /* ------ Media Queries ------ */
-@media screen and (max-width: 425px),
-  (max-width: 812px) and (orientation: landscape) {
-  /* Large Mobile Screen Size - Portrait and Landscape */
+@media screen and (max-width: 425px) {
+  /* Large Mobile Screen Size - Portrait*/
   .navbar-dark .navbar-nav .nav-link {
     padding-top: 0;
   }
@@ -279,19 +273,35 @@ body {
 
   .contact-form {
     margin-top: 20px;
-    padding: 30px;
   }
 
   .contact-container {
-      padding-bottom: 0;
-  }
-
-  .contact-description {
-    width: 100%;
+    padding-bottom: 0;
   }
 
   .contact-description h1 {
     font-size: 2rem; /* Before 2.5rem */
+  }
+}
+
+@media screen and (max-width: 812px) and (orientation: landscape) {
+  /* Large Mobile Screen Size - Landscape*/
+  .navbar-dark .navbar-nav .nav-link {
+    padding-top: 0;
+  }
+
+  .page-title h1 {
+    font-size: 1.8rem; /* Before 2.5rem */
+    margin-bottom: 0;
+  }
+
+  .btn-gallery {
+    padding: 10px 20px;
+    margin-bottom: 0;
+  }
+
+  #gallery-top {
+    height: 600px;
   }
 }
 
