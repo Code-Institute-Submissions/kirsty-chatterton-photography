@@ -282,6 +282,10 @@ body {
   .contact-description h1 {
     font-size: 2rem; /* Before 2.5rem */
   }
+
+  .social-links i {
+      margin: 0 8px;
+  }
 }
 
 @media screen and (max-width: 812px) and (orientation: landscape) {
