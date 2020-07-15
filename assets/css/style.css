@@ -1,9 +1,18 @@
 /* ------ Google Fonts ------ */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Raleway:wght@200;300;400;500;600;700&display=swap");
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
   color: #fcfcfc;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
@@ -18,6 +27,9 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/pets/cavapoo-window.jpg") no-repeat center center fixed;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .bg-img-gallery {
@@ -25,12 +37,18 @@ body {
     url("../images/landscapes/belfast-sunrise.jpg") no-repeat center center
       fixed;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .bg-img-contact {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/events/woman-singing.jpg") no-repeat center center fixed;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 /* ------ End Background Image ------ */
 
@@ -68,12 +86,9 @@ body {
 /* ------ End NavBar ------ */
 
 /* ------ Page Title ------ */
-/* Code below is from CSS Tricks: How to Center an Object */
 .page-title {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .page-title h1 {
@@ -118,15 +133,7 @@ body {
 
 /* ------ Gallery Images ------ */
 #gallery-top {
-  height: 78.5vh;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.gallery-btns {
-  margin-top: 40px;
+    padding: 80px;
 }
 
 .gallery h3 {
@@ -159,7 +166,7 @@ body {
 
 /* ------ Contact Form ------ */
 .contact-container {
-  padding: 50px 30px;
+  padding: 30px;
 }
 
 .contact-description h1 {
@@ -241,8 +248,9 @@ body {
 }
 /* ------ End About Modal ------ */
 
-/* ------ Social Media Links ------ */
+/* ------ Footer/Social Media Links ------ */
 .social-links {
+  flex-shrink: 0;
   margin: 20px;
   padding: 10px;
 }
@@ -256,7 +264,7 @@ body {
   padding: 15px;
   margin: 0 15px;
 }
-/* ------ End Social Media Links ------ */
+/* ------ End Footer/Social Media Links ------ */
 
 /* ------ Media Queries ------ */
 @media screen and (max-width: 425px) {
@@ -267,16 +275,10 @@ body {
 
   .page-title h1 {
     font-size: 2rem; /* Before 2.5rem */
-    margin-bottom: 0;
-    margin-top: 40px;
   }
 
   .contact-form {
     margin-top: 20px;
-  }
-
-  .contact-container {
-    padding-bottom: 0;
   }
 
   .contact-description h1 {
@@ -284,7 +286,7 @@ body {
   }
 
   .social-links i {
-      margin: 0 8px;
+      margin: 0 10px;
   }
 }
 
@@ -295,24 +297,12 @@ body {
   }
 
   .page-title h1 {
-    font-size: 1.8rem; /* Before 2.5rem */
+    font-size: 2rem; /* Before 2.5rem */
     margin-bottom: 0;
   }
 
-  .btn-gallery {
-    padding: 10px 20px;
-    margin-bottom: 0;
-  }
-
-  #gallery-top {
-    height: 600px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  #gallery-top {
-    width: 60vw;
-    margin: 0 auto;
+  .contact-form {
+    margin-top: 20px;
   }
 }
 /* ------ End Media Queries ------ */
