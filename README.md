@@ -84,24 +84,24 @@ The wireframes for my site were created using [Balsamiq](https://balsamiq.com/).
 
 #### Desktop
 
-- [Home Page](assets/images/wireframes/photography-desktop-home.pdf)
-- [About Modal](assets/images/wireframes/photography-desktop-about.pdf)
-- [Gallery Page](assets/images/wireframes/photography-desktop-gallery.pdf)
-- [Contact Page](assets/images/wireframes/photography-desktop-contact.pdf)
+- [Home Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-desktop-home.pdf)
+- [About Modal](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/images/wireframes/photography-desktop-about.pdf)
+- [Gallery Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/images/wireframes/photography-desktop-gallery.pdf)
+- [Contact Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/images/wireframes/photography-desktop-contact.pdf)
 
 #### Tablet
 
-- [Home Page](assets/images/wireframes/photography-tablet-home.pdf)
-- [About Modal](assets/images/wireframes/photography-tablet-about.pdf)
-- [Gallery Page](assets/images/wireframes/photography-tablet-gallery.pdf)
-- [Contact Page](assets/images/wireframes/photography-tablet-contact.pdf)
+- [Home Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/images/wireframes/photography-tablet-home.pdf)
+- [About Modal](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/images/wireframes/photography-tablet-about.pdf)
+- [Gallery Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/images/wireframes/photography-tablet-gallery.pdf)
+- [Contact Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/images/wireframes/photography-tablet-contact.pdf)
 
 #### Mobile
 
-- [Home Page](assets/images/wireframes/photography-mobile-home.pdf)
-- [About Modal](assets/images/wireframes/photography-mobile-about.pdf)
-- [Gallery Page](assets/images/wireframes/photography-mobile-gallery.pdf)
-- [Contact Page](assets/images/wireframes/photography-mobile-contact.pdf)
+- [Home Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/images/wireframes/photography-mobile-home.pdf)
+- [About Modal](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/images/wireframes/photography-mobile-about.pdf)
+- [Gallery Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/images/wireframes/photography-mobile-gallery.pdf)
+- [Contact Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/images/wireframes/photography-mobile-contact.pdf)
 
 ---
 
