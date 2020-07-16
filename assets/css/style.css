@@ -1,5 +1,8 @@
 /* ------ Google Fonts ------ */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Raleway:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Raleway:wght@300;500&display=swap");
+html {
+    height: 100%;
+}
 
 body {
   margin: 0;
@@ -24,8 +27,6 @@ body {
     url("../images/pets/cavapoo-window.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
 }
 
 .bg-img-gallery {
@@ -34,8 +35,6 @@ body {
       fixed;
   background-size: cover;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
 }
 
 .bg-img-contact {
@@ -43,8 +42,6 @@ body {
     url("../images/events/woman-singing.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
 }
 /* ------ End Background Image ------ */
 
@@ -146,11 +143,12 @@ body {
 .gallery hr {
   width: 40%;
   border: 1px solid #212529;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .gallery img {
   padding: 10px;
+  position: relative;
 }
 
 /* Code below is from MDN tutorials on using the :target selector */
@@ -184,7 +182,7 @@ body {
 }
 
 .contact-form textarea {
-  height: 150px;
+  height: 100px;
   resize: none;
 }
 
@@ -292,5 +290,4 @@ body {
     margin: 0 10px;
   }
 }
-
 /* ------ End Media Queries ------ */
