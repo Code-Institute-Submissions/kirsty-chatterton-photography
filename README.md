@@ -2,6 +2,9 @@
 
 Kirsty Chatterton Photography is a personal photography portfolio, showcasing my work as a hobbyist photographer.
 
+![Am I Responsive](assets/images/am-i-responsive.jpg)
+Image from [Am I Responsive](http://ami.responsivedesign.is/?url=https%3A%2F%2Fkirstchat.github.io%2Fkirsty-chatterton-photography%2F)
+
 A demo of the website can be found here: [www.kirstychattertonphotography.com](https://kirstchat.github.io/kirsty-chatterton-photography/)
 
 ---
@@ -216,7 +219,7 @@ There are no known bugs at present but there were some bugs during the developme
 
 Fixed Positioning issues on Mobile Devices: 
 
-- As I wanted a fixed/no-scroll page on a desktop, I initially started by "fixing" the positioning of the title and the footer on the "Home" page but found this to be an issue when viewing the site on a mobile device as the content looked "squished" together.
+- As I wanted a fixed/no-scroll page on a desktop, I initially started by "fixing" the positioning of the title and the footer on the "Home" page but found this to be an issue when viewing the site on a mobile device (particularly landscape) as the content looked "squished" together.
 - I tried correcting the issue by changing the margin and the padding but this didn't solve the issue.
 - I corrected this issue by searching for different ways to have the footer always positioned at the bottom without and found a tutorial on [CSS Tricks](https://css-tricks.com/couple-takes-sticky-footer/) on "sticky footers" and found that part of the code from the flexbox example helped solve the issue.
 - By changing the display of the body to flex and setting the top and bottom margin to auto for the main content, the footer stayed at the bottom of the page. 
