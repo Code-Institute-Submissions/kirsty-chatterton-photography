@@ -221,11 +221,12 @@ The site can be viewed here: [https://kirstchat.github.io/kirsty-chatterton-phot
 ### Content
 
 - All content on the site was written by the developer
-- The README.md is based on the Code Institute sample README file
+- The README.md is based on the Code Institute sample README
 
 ### Media
 
 - All images used on the site were created by the developer
+- All images were omptimised for web using [Tiny JPG](https://tinyjpg.com/)
 
 ### Acknowledgements
 
