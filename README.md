@@ -62,7 +62,7 @@ The goal of this project is to create a personal photography portfolio to show t
 
 I wanted to keep the overall design of this website minimal and simple so that it's easy use and navigate. As it's a photography website, I wanted the main focus to be the images so I've included a background image on each page so the user can see some of my work before navigating to the gallery. On each of the background images, I've included a black color overlay with a reduced opacity so the user can easily see the text, buttons and navigation bar without being distracted by the background image.
 
-The site layout is easy to follow with a navigation bar at the top, the content in the middle and social links in the footer. The site is made of of three pages: "Home", "Gallery" and "Contact". Rather than including a separate page for "About", I've added a modal which can be opened on each page.
+The site layout is easy to follow with a navigation bar at the top, the content in the middle and social links in the footer. The site is made of of three pages: "Home", "Gallery" and "Contact". Rather than including a separate page for "About", I've added a modal that can be opened on each page.
 
 #### Colour Scheme
 
@@ -72,7 +72,7 @@ As I wanted the main focus for this site to be the images, I decided on a neutra
 
 #### Typography
 
-Throughout the site, I used two fonts from [Google Fonts](https://fonts.google.com/). The two fonts used were "Poppins" and "Raleway", with "Raleway" being a suggested pairng for the "Poppins" font, as they're both easy to read. I initially imported a number of font weights for each, ranging from 200 to 700 but after starting the site and testing different font weights, I decided on font weights 300 and 500. "Poppins" is the main font used throughout the site and is set to uppercase where as "Raleway" was used for content in the "About" modal and the contact form.
+Throughout the site, I used two fonts from [Google Fonts](https://fonts.google.com/). The two fonts used were "Poppins" and "Raleway", with "Raleway" being a suggested pairng for the "Poppins" font, as they're both easy to read. I initially imported a number of font weights for each, ranging from 200 to 700 but after starting the site and testing different font weights, I decided on font weights 300, 500 and 700. "Poppins" is the main font used throughout the site and is set to uppercase where as "Raleway" was used for content in the "About" modal and the contact form.
 
 #### Imagery
 
@@ -103,6 +103,7 @@ The wireframes for my site were created using [Balsamiq](https://balsamiq.com/).
 - [Gallery Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-gallery.pdf)
 - [Contact Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-contact.pdf)
 
+#### [Back to Contents](#contents)
 ---
 
 ## Features
@@ -126,6 +127,7 @@ The wireframes for my site were created using [Balsamiq](https://balsamiq.com/).
 - Blog Posts
   - This is a potential feature I'd like to implement to show users what equipment I use, other equipment I'd recommend, and tutorial posts to show my photo editing process. This is a feature that will only be implemented if there is enough interest.
 
+#### [Back to Contents](#contents)
 ---
 
 ## Technologies Used
@@ -152,18 +154,29 @@ The wireframes for my site were created using [Balsamiq](https://balsamiq.com/).
 - [Balsamiq](https://balsamiq.com/)
   - Balsamiq was used to create the wireframes for desktop, tablet and mobile during the design process.
 
+#### [Back to Contents](#contents)
+
 ---
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator was used to validate every page of the project to ensure there were no syntax errors in the project: 
+The W3C Markup Validator and W3C CSS Validator was used to validate every page of the project to ensure there were no syntax errors in the project. The following is the results that were displayed upon checking each page:
 
-- **Add Results Later**
+- [W3C Markup Validator](https://validator.w3.org/)
+  - index.html - No errors or warnings to show.
+  - gallery.html - No errors or warnings to show.
+  - contact.html - No errors or warnings to show.
+
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+  - style.css - No error found.
+  - The validator did display a warning for the use of -webkit-background-size.
 
 ### Testing User Stories from UX Section
 
 As a **user**, I want to easily understand the main purpose of the site on my first visit:
-- I've added a background image to the "Home" page with the title of the website (Kirsty Chatterton Photography) positioned in the center of the page in a large and easy to read font so the user knows what the site is.
+- I've added a background image to the "Home" page with the title of the website (Kirsty Chatterton Photography) positioned in the center of the page in a large and easy to read font so the user has an understanding of what the site is when they first visit.
+- I've also included a button linking to the "Gallery" below the page title on the site which also helps to reinforce what the site is.
 
 As a **user**, I want to be able to easily navigate throughout the site to find content:
 - I've added a navigation bar to the top of every page on the site with links to each of the pages which are "Home", "Gallery" and "Contact".
@@ -179,7 +192,43 @@ As a **user**, I want to be able to easily contact the photographer to book them
 
 ### Further Testing
 
+As well as running each page through a validator and testing user stories, I also tested the responsiveness of the site across a number of devices using Chrome DevTools during the development process.
+
+I also used a site called [Responsinator](https://www.responsinator.com/) to test the responsiveness of the site across different sized tablet and mobile devices.
+
+As well as testing the responsiveness of the site, I also tested the performance of each page on the site using [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools. This was a suggestion from my mentor (Antonija Simic) to check how quickly images would load on desktop and mobile.
+
+Below are the scores for index.html:
+
+![Lighthouse Scores for index.html](assets/images/performance-index.jpg)
+
+Below are the scores for gallery.html:
+
+![Lighthouse Scores for gallery.html](assets/images/performance-gallery.jpg)
+
+Below are the scores for contact.html:
+
+![Lighthouse Scores for contact.html](assets/images/performance-contact.jpg)
+
 ### Known Bugs
+
+There are no known bugs at present but there were some bugs during the development process which are detailed below.
+
+Fixed Positioning issues on Mobile Devices: 
+
+- As I wanted a fixed/no-scroll page on a desktop, I initially started by "fixing" the positioning of the title and the footer on the "Home" page but found this to be an issue when viewing the site on a mobile device as the content looked "squished" together.
+- I tried correcting the issue by changing the margin and the padding but this didn't solve the issue.
+- I corrected this issue by searching for different ways to have the footer always positioned at the bottom without and found a tutorial on [CSS Tricks](https://css-tricks.com/couple-takes-sticky-footer/) on "sticky footers" and found that part of the code from the flexbox example helped solve the issue.
+- By changing the display of the body to flex and setting the top and bottom margin to auto for the main content, the footer stayed at the bottom of the page. 
+
+Images:
+
+- One of the bugs found towards the end of developement was the load time of images which slowed down the performace of each page. This was noticed by my mentor during a review of my code.
+- To solve this issue, I searched for ways to compress image sizes and found this guide for [Optimising Images for Web](https://www.abetterlemonadestand.com/optimizing-images-for-web/) - this had also been previously shared on the Slack Community as I found out later.
+- This guide linked to some recommended sites for compressing images - I decided to use [Tiny Jpg](https://tinyjpg.com/) to compress all the images used on the site.
+- After compressing all my images and running the site through Lighthouse, the performance score had improved and load times were much quicker.
+
+#### [Back to Contents](#contents)
 
 ---
 
@@ -189,23 +238,30 @@ As a **user**, I want to be able to easily contact the photographer to book them
 
 The project was deployed to GitHub Pages using the following steps:
 
-1. Log in to GitHub and locate the GitHub Repository
-2. At the top of the Repository, click on the "Settings" Button on the menu.
-3. Scroll down the Settings page to the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch". The page will automatically refresh.
-5. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+1. After pushing the project to GitHub, I opened the GitHub site and logged in.
+2. After logging in, I located the repository for the project: [github.com/KirstChat/kirsty-chatterton-photography](https://github.com/KirstChat/kirsty-chatterton-photography)
+3. At the top of the repository, I clicked on the "Settings" button.
+4. On the settings page, I scrolled down to the "GitHub Pages" section.
+5. Under "Source", I selected "Master Branch" from the dropdown menu.
+6. After the page refreshed itself, I scrolled back down to the "GitHub Pages" section to retrive the link to the published site.
 
 The site can be viewed here: [https://kirstchat.github.io/kirsty-chatterton-photography/](https://kirstchat.github.io/kirsty-chatterton-photography/)
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the GitHub Repository
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open your IDE and open the terminal
-5. Change the current working directory to the location where you want the cloned directory to be made.
+To clone the repository to make a local copy on your computer, follow these steps:
+
+1. Open GitHub and locate the GitHub repository: [github.com/KirstChat/kirsty-chatterton-photography](https://github.com/KirstChat/kirsty-chatterton-photography)
+2. Under the repository name, click "Code" or "Clone" and copy the link to clone the repository using "HTTPS".
+4. After copying the link, open terminal on your computer. This step can also be done in the terminal on an IDE.
+5. Change the current working directory to the location where you want the cloned directory to be saved.
 6. Type git clone, and then paste the URL: [https://github.com/KirstChat/kirsty-chatterton-photography](https://github.com/KirstChat/kirsty-chatterton-photography)
-7. Press Enter. Your local clone will be created.
+```
+git clone https://github.com/KirstChat/kirsty-chatterton-photography.git
+```
+7. Press Enter to create a local clone.
+
+#### [Back to Contents](#contents)
 
 ---
 
@@ -226,9 +282,12 @@ The site can be viewed here: [https://kirstchat.github.io/kirsty-chatterton-phot
 ### Media
 
 - All images used on the site were created by the developer
-- All images were omptimised for web using [Tiny JPG](https://tinyjpg.com/)
+- All images were optimised for web using [Tiny JPG](https://tinyjpg.com/)
 
 ### Acknowledgements
 
-- My mentor Antonija Simic
-- The Code Institute Slack community
+- I'd like to thank my mentor Antonija Simic for all her feedback and advice on this project - especially for her suggestion to use the CSS target selector to help achieve a filter like image gallery.
+- I'd also like to thank Aukje van der Wal and Neringa Bickmore for sharing examples of their README files - seeing some other real world examples help!
+- And finally, I'd like to thank the Code Institute Slack community for all their help and feedback - they really are an amazing bunch of people! 
+
+#### [Back to Contents](#contents)
