@@ -63,9 +63,9 @@ The goal of this project is to create a personal photography portfolio to show t
 
 ### Design
 
-I wanted to keep the overall design of this website minimal and simple so that it's easy use and navigate. As it's a photography website, I wanted the main focus to be the images so I've included a background image on each page so the user can see some of my work before navigating to the gallery. On each of the background images, I've included a black color overlay with a reduced opacity so the user can easily see the text, buttons and navigation bar without being distracted by the background image.
+I wanted to keep the overall design of the site minimal and simple so that it's easy use and navigate. As it's a photography website, I wanted the main focus to be the images so I've included a background image on each page so the user can see some of my work before navigating to the gallery. On each of the background images, I've included a black color overlay with a reduced opacity so the user can easily see the text, buttons and navigation bar without being distracted by the background image.
 
-The site layout is easy to follow with a navigation bar at the top, the content in the middle and social links in the footer. The site is made of of three pages: "Home", "Gallery" and "Contact". Rather than including a separate page for "About", I've added a modal that can be opened on each page.
+The site layout is easy to follow with a navigation bar at the top, the content in the middle and social links in the footer. The site is made up of three pages: "Home", "Gallery" and "Contact". Rather than including a separate page for "About", I've added a modal that can be opened on each page.
 
 #### Colour Scheme
 
@@ -75,7 +75,7 @@ As I wanted the main focus for this site to be the images, I decided on a neutra
 
 #### Typography
 
-Throughout the site, I used two fonts from [Google Fonts](https://fonts.google.com/). The two fonts used were "Poppins" and "Raleway", with "Raleway" being a suggested pairng for the "Poppins" font, as they're both easy to read. I initially imported a number of font weights for each, ranging from 200 to 700 but after starting the site and testing different font weights, I decided on font weights 300, 500 and 700. "Poppins" is the main font used throughout the site and is set to uppercase where as "Raleway" was used for content in the "About" modal and the contact form.
+Throughout the site, I used two fonts from [Google Fonts](https://fonts.google.com/) - "Poppins" and "Raleway". I chose these fonts as they were a suggested pairing so they compliment each other and they are also both easy to read. I initially imported a number of font weights for each, ranging from 200 to 700 but after starting the site and testing different font weights, I decided on font weights 300, 500 and 700. "Poppins" is the main font used throughout the site and is set to uppercase where as "Raleway" was used for content in the "About" modal and the contact form.
 
 #### Imagery
 
@@ -83,7 +83,7 @@ The images featured on this site are all my own images that I have captured over
 
 ### Wireframes
 
-The wireframes for my site were created using [Balsamiq](https://balsamiq.com/). The site is made up of three pages with a modal feature on each page for the "About Me" section. There is also a gallery page and a contact page. I created wireframes for desktop as well as mobile and tablet. The final design of the site closely follows the wireframes created during the design process which can be found in the links below:
+The wireframes for my site were created using [Balsamiq](https://balsamiq.com/). I created wireframes for desktop as well as mobile and tablet. The final design of the site closely follows the wireframes created during the design process which can be found in the links below:
 
 #### Desktop
 
@@ -106,7 +106,7 @@ The wireframes for my site were created using [Balsamiq](https://balsamiq.com/).
 - [Gallery Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-gallery.pdf)
 - [Contact Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-contact.pdf)
 
-#### [Back to Contents](#contents)
+#### [Contents](#contents)
 ---
 
 ## Features
@@ -130,7 +130,7 @@ The wireframes for my site were created using [Balsamiq](https://balsamiq.com/).
 - Blog Posts
   - This is a potential feature I'd like to implement to show users what equipment I use, other equipment I'd recommend, and tutorial posts to show my photo editing process. This is a feature that will only be implemented if there is enough interest.
 
-#### [Back to Contents](#contents)
+#### [Contents](#contents)
 ---
 
 ## Technologies Used
@@ -143,9 +143,9 @@ The wireframes for my site were created using [Balsamiq](https://balsamiq.com/).
 ### Frameworks, Libraries and Programs
 
 - [Bootstrap v4.5](https://getbootstrap.com/)
-  - Bootstrap was used to give the website a simple, responsive layout and to also add other features including a navigation bar and a modal.
+  - Bootstrap was used to give the website a simple, responsive layout and to also add other features including a navigation bar, a modal and a form.
 - [Google Fonts](https://fonts.google.com/)
-  - Google Fonts was used to import the "Poppins" and "Raleway" font into the style.css file that is used across all pages throughtout the site.
+  - Google Fonts was used to link the "Poppins" and "Raleway" fonts in each of the html files.
 - [Font Awesome](https://fontawesome.com/)
   - Font Awesome was used to add icons for social media/contact links throughout the site. It was also used to add icons to buttons on each of the pages and also in the NavBar Brand.
 - [Git](https://git-scm.com/)
@@ -153,17 +153,17 @@ The wireframes for my site were created using [Balsamiq](https://balsamiq.com/).
 - [GitHub](https://github.com/)
   - GitHub was used to store the project code that was pushed from GitPod.
 - [Gitpod](https://www.gitpod.io/)
-  - GitPod was used to code the project.
+  - GitPod was the online IDE used to code the project.
 - [Balsamiq](https://balsamiq.com/)
   - Balsamiq was used to create the wireframes for desktop, tablet and mobile during the design process.
 
-#### [Back to Contents](#contents)
+#### [Contents](#contents)
 
 ---
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator was used to validate every page of the project to ensure there were no syntax errors in the project. The following is the results that were displayed upon checking each page:
+The W3C Markup Validator and W3C CSS Validator was used to validate every page of the project to ensure there were no syntax errors in the project. The following shows the results that were displayed upon checking each page:
 
 - [W3C Markup Validator](https://validator.w3.org/)
   - index.html - No errors or warnings to show.
@@ -185,33 +185,42 @@ As a **user**, I want to be able to easily navigate throughout the site to find 
 - I've added a navigation bar to the top of every page on the site with links to each of the pages which are "Home", "Gallery" and "Contact".
 
 As a **user**, I want to see what type of work the photographer has done:
-- I've added a gallery page with four buttons that will display different image galleries when each button is clicked.
+- I've added a gallery page with four buttons that will display different image galleries when each button is clicked. 
 
 As a **user**, I want to find out more about the photographer and where they're located so I can book them for an event or other photography sessions:
 - I've added a modal on each page for the "About" section which can be accessed from the navigation bar at the top of each page. When the user clicks "About" in the navigation bar, the modal will pop up with a short bio on the photographer and where they're currently located.
+- I've also included my current location on the "Contact" page.
 
 As a **user**, I want to be able to easily contact the photographer to book them for an event or session, and to ask any other quesions I may have about their work:
-- I've added social links to the footer on each page. These will link to Instagram, LinkedIn and the "Contact" page on the site. Instagram and LinkedIn will open in a new tab/window so the user can easily come back to the website.
+- I've added a "Contact" page on the site with a form which the user can complete to send me a message.
+- I've added social links to the footer on each page. These link to Instagram, LinkedIn and the "Contact" page on the site. Instagram and LinkedIn will open in a new tab/window so the user can easily come back to the site. 
+- I've also included my email address on the "Contact" page which will open a new email window when clicked by the user. This gives the user the option to contact me by filling in the form, by sending me a message on one of my social media pages or by sending me an email.
 
 ### Further Testing
 
-As well as running each page through a validator and testing user stories, I also tested the responsiveness of the site across a number of devices using Chrome DevTools during the development process.
+As well as running each page through a validator and testing user stories, I also tested the responsiveness of the site across a number of devices and different browsers:
+- The site was tested during the development process using Chrome DevTools to test the responsiveness on different devices before pushing any changes to GitHub.
+- The site was tested on completion in Chrome, Safari and FireFox.
+- The site was also tested on personal device which include a MacBook Pro, iPad and iPhone 11.
+- I also used a site called [Responsinator](https://www.responsinator.com/) to test the responsiveness of the site across different sized tablet and mobile devices that I don't have access to.
 
-I also used a site called [Responsinator](https://www.responsinator.com/) to test the responsiveness of the site across different sized tablet and mobile devices.
+As well as testing the responsiveness of the site, I also tested the performance of each page on the site using [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools. This was a suggestion from my mentor (Antonija Simic) to check how quickly images would load on desktop and mobile. 
 
-As well as testing the responsiveness of the site, I also tested the performance of each page on the site using [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools. This was a suggestion from my mentor (Antonija Simic) to check how quickly images would load on desktop and mobile.
-
-Below are the scores for index.html:
+- Below are the scores for index.html:
 
 ![Lighthouse Scores for index.html](assets/images/performance-index.jpg)
 
-Below are the scores for gallery.html:
+- Below are the scores for gallery.html:
 
 ![Lighthouse Scores for gallery.html](assets/images/performance-gallery.jpg)
 
-Below are the scores for contact.html:
+- Below are the scores for contact.html:
 
 ![Lighthouse Scores for contact.html](assets/images/performance-contact.jpg)
+
+
+
+
 
 ### Known Bugs
 
@@ -221,7 +230,8 @@ Fixed Positioning issues on Mobile Devices:
 
 - As I wanted a fixed/no-scroll page on a desktop, I initially started by "fixing" the positioning of the title and the footer on the "Home" page but found this to be an issue when viewing the site on a mobile device (particularly landscape) as the content looked "squished" together.
 - I tried correcting the issue by changing the margin and the padding but this didn't solve the issue.
-- I corrected this issue by searching for different ways to have the footer always positioned at the bottom without and found a tutorial on [CSS Tricks](https://css-tricks.com/couple-takes-sticky-footer/) on "sticky footers" and found that part of the code from the flexbox example helped solve the issue.
+- I corrected this issue by searching for different ways to have the footer always positioned at the bottom without "fixing" its position and found a tutorial on [CSS Tricks](https://css-tricks.com/couple-takes-sticky-footer/) on "sticky footers".
+- I used part of the code from the flexbox example which helped solve the issue.
 - By changing the display of the body to flex and setting the top and bottom margin to auto for the main content, the footer stayed at the bottom of the page. 
 
 Images:
@@ -231,7 +241,7 @@ Images:
 - This guide linked to some recommended sites for compressing images - I decided to use [Tiny Jpg](https://tinyjpg.com/) to compress all the images used on the site.
 - After compressing all my images and running the site through Lighthouse, the performance score had improved and load times were much quicker.
 
-#### [Back to Contents](#contents)
+#### [Contents](#contents)
 
 ---
 
@@ -258,13 +268,13 @@ To clone the repository to make a local copy on your computer, follow these step
 2. Under the repository name, click "Code" or "Clone" and copy the link to clone the repository using "HTTPS".
 4. After copying the link, open terminal on your computer. This step can also be done in the terminal on an IDE.
 5. Change the current working directory to the location where you want the cloned directory to be saved.
-6. Type git clone, and then paste the URL: [https://github.com/KirstChat/kirsty-chatterton-photography](https://github.com/KirstChat/kirsty-chatterton-photography)
+6. Type git clone, and then paste the URL: [https://github.com/KirstChat/kirsty-chatterton-photography](https://github.com/KirstChat/kirsty-chatterton-photography)- see example below:
 ```
 git clone https://github.com/KirstChat/kirsty-chatterton-photography.git
 ```
 7. Press Enter to create a local clone.
 
-#### [Back to Contents](#contents)
+#### [Contents](#contents)
 
 ---
 
@@ -279,18 +289,19 @@ git clone https://github.com/KirstChat/kirsty-chatterton-photography.git
 
 ### Content
 
-- All content on the site was written by the developer
-- The README.md is based on the Code Institute sample README
+- All content on the site was written by the developer.
+- The README.md is based on the Code Institute sample README.
 
 ### Media
 
-- All images used on the site were created by the developer
-- All images were optimised for web using [Tiny JPG](https://tinyjpg.com/)
+- All images used on the site were created by the developer.
+- All images were optimised for web using [Tiny JPG](https://tinyjpg.com/).
+- The image used in the "About" modal was previously cropped using [Crop Circle](https://crop-circle.imageonline.co/#circlecropresult) before starting the project.
 
 ### Acknowledgements
 
-- I'd like to thank my mentor Antonija Simic for all her feedback and advice on this project - especially for her suggestion to use the CSS target selector to help achieve a filter like image gallery.
-- I'd also like to thank Aukje van der Wal and Neringa Bickmore for sharing examples of their README files - seeing some other real world examples help!
+- I'd like to thank my mentor Antonija Simic for all her feedback and advice on this project - especially for her suggestion to check out the CSS target selector which helped to achieve a filter like image gallery.
+- I'd also like to thank Aukje van der Wal and Neringa Bickmore for sharing examples of their README files during one of the daily calls on Slack - seeing additional examples of README files along with the Code Institue example was very helpful! 
 - And finally, I'd like to thank the Code Institute Slack community for all their help and feedback - they really are an amazing bunch of people! 
 
-#### [Back to Contents](#contents)
+#### [Contents](#contents)
