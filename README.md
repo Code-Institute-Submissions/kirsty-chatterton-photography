@@ -11,7 +11,7 @@ A demo of the website can be found here: [www.kirstychattertonphotography.com](h
 
 ## Contents
 
-- [**User Experience (UX)**](<#user-experience-(ux)>)
+- [**User Experience (UX)**](#user-experience-(ux))
 
   - Project Goals
   - User Goals
