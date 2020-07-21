@@ -85,26 +85,12 @@ The images featured on this site are all my own images that I have captured over
 
 The wireframes for my site were created using [Balsamiq](https://balsamiq.com/). I created wireframes for desktop as well as mobile and tablet. The final design of the site closely follows the wireframes created during the design process which can be found in the links below:
 
-#### Desktop
-
-- [Home Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-desktop-home.pdf)
-- [About Modal](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-desktop-about.pdf)
-- [Gallery Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-desktop-gallery.pdf)
-- [Contact Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-desktop-contact.pdf)
-
-#### Tablet
-
-- [Home Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-tablet-home.pdf)
-- [About Modal](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-tablet-about.pdf)
-- [Gallery Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-tablet-gallery.pdf)
-- [Contact Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-tablet-contact.pdf)
-
-#### Mobile
-
-- [Home Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-home.pdf)
-- [About Modal](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-about.pdf)
-- [Gallery Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-gallery.pdf)
-- [Contact Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-contact.pdf)
+| Desktop | Tablet | Mobile |
+| :-----: | :----: | :----: |
+| [Home Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-desktop-home.pdf) | [Home Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-tablet-home.pdf) | [Home Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-home.pdf) |
+| [About Modal](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-desktop-about.pdf) | [About Modal](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-tablet-about.pdf) | [About Modal](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-about.pdf) |
+| [Gallery Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-desktop-gallery.pdf) | [Gallery Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-tablet-gallery.pdf) | [Gallery Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-gallery.pdf) |
+| [Contact Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-desktop-contact.pdf) | [Contact Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-tablet-contact.pdf) | [Contact Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-contact.pdf) |
 
 #### [Contents](#contents)
 ---
@@ -200,46 +186,56 @@ As a **user**, I want to be able to easily contact the photographer to book them
 
 As well as running each page through a validator and testing user stories, I also tested the responsiveness of the site across a number of devices and different browsers:
 - The site was tested during the development process using Chrome DevTools to test the responsiveness on different devices before pushing any changes to GitHub.
-- The site was tested on completion in Chrome, Safari and FireFox.
-- The site was also tested on personal device which include a MacBook Pro, iPad and iPhone 11.
+- On completion of the project, the site was tested in Chrome, Safari and FireFox.
+- The site was also tested on personal devices in Chrome and Safari. Devices include a MacBook Pro, iPad and iPhone 11.
 - I also used a site called [Responsinator](https://www.responsinator.com/) to test the responsiveness of the site across different sized tablet and mobile devices that I don't have access to.
 
-As well as testing the responsiveness of the site, I also tested the performance of each page on the site using [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools. This was a suggestion from my mentor (Antonija Simic) to check how quickly images would load on desktop and mobile. 
+As well as testing the responsiveness of the site, I also tested the performance of each page using [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools. This was a suggestion from my mentor (Antonija Simic) to check how quickly images would load on desktop and mobile devices. The scores for each page can be found below: 
 
-- Below are the scores for index.html:
+- index.html:
 
 ![Lighthouse Scores for index.html](assets/images/performance-index.jpg)
 
-- Below are the scores for gallery.html:
+- gallery.html:
 
 ![Lighthouse Scores for gallery.html](assets/images/performance-gallery.jpg)
 
-- Below are the scores for contact.html:
+- contact.html:
 
 ![Lighthouse Scores for contact.html](assets/images/performance-contact.jpg)
 
+Each page was also tested individualy to check that:
+- Images load properly
+- Buttons link to the correct page/external website
+- External links open in a new tab/window
+- Form validation works 
 
-
-
+The site was also tested and reviewed by my mentor as well as some Code Institute students from the June 2020 Cohort.
 
 ### Known Bugs
 
-There are no known bugs at present but there were some bugs during the development process which are detailed below.
+There were some bugs during the developement process which can be found below:
 
-Fixed Positioning issues on Mobile Devices: 
+Fixed Positioning issues on Mobile Devices
 
 - As I wanted a fixed/no-scroll page on a desktop, I initially started by "fixing" the positioning of the title and the footer on the "Home" page but found this to be an issue when viewing the site on a mobile device (particularly landscape) as the content looked "squished" together.
-- I tried correcting the issue by changing the margin and the padding but this didn't solve the issue.
+- I tried correcting the issue by changing the margin and padding but this didn't solve the issue and instead moved the positioning of the content.
 - I corrected this issue by searching for different ways to have the footer always positioned at the bottom without "fixing" its position and found a tutorial on [CSS Tricks](https://css-tricks.com/couple-takes-sticky-footer/) on "sticky footers".
-- I used part of the code from the flexbox example which helped solve the issue.
-- By changing the display of the body to flex and setting the top and bottom margin to auto for the main content, the footer stayed at the bottom of the page. 
+- I used part of the code from the flexbox example which helped solve the issue by changing the display of the body to flex and setting its direction to column.
+- I also set height for html to 100% and the height of the body to 100vh as suggested in the example.
+- To then center the main content, I set the top and bottom margin to auto as sugegsted in the example, which helped keep the footer at the bottom of the viewport.
 
-Images:
+Images
 
 - One of the bugs found towards the end of developement was the load time of images which slowed down the performace of each page. This was noticed by my mentor during a review of my code.
 - To solve this issue, I searched for ways to compress image sizes and found this guide for [Optimising Images for Web](https://www.abetterlemonadestand.com/optimizing-images-for-web/) - this had also been previously shared on the Slack Community as I found out later.
 - This guide linked to some recommended sites for compressing images - I decided to use [Tiny Jpg](https://tinyjpg.com/) to compress all the images used on the site.
 - After compressing all my images and running the site through Lighthouse, the performance score had improved and load times were much quicker.
+
+Despite some bugs during development, there are no major known bugs on the site but there is a minor bug that was discovered by one of my peers:
+
+- The hover state of the social media buttons doesn't revert back to it's original color when clicked/touched on a mobile device.
+- This is a common issue on mobile devices as discovered after a quick Google search and from my understanding, requires JavaScript to solve the issue. 
 
 #### [Contents](#contents)
 
