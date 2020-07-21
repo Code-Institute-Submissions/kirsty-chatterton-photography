@@ -3,7 +3,7 @@
 Kirsty Chatterton Photography is a personal photography portfolio, showcasing my work as a hobbyist photographer.
 
 ![Am I Responsive](assets/images/am-i-responsive.jpg)
-Image from [Am I Responsive](http://ami.responsivedesign.is/?url=https%3A%2F%2Fkirstchat.github.io%2Fkirsty-chatterton-photography%2F)
+The image above is a screenshot from [Am I Responsive](http://ami.responsivedesign.is/?url=https%3A%2F%2Fkirstchat.github.io%2Fkirsty-chatterton-photography%2F)
 
 A demo of the website can be found here: [www.kirstychattertonphotography.com](https://kirstchat.github.io/kirsty-chatterton-photography/)
 
@@ -11,7 +11,7 @@ A demo of the website can be found here: [www.kirstychattertonphotography.com](h
 
 ## Contents
 
-- [**User Experience (UX)**](#user-experience-(ux))
+- [**User Experience (UX)**](<#user-experience-(ux)>)
 
   - Project Goals
   - User Goals
@@ -85,14 +85,15 @@ The images featured on this site are all my own images that I have captured over
 
 The wireframes for my site were created using [Balsamiq](https://balsamiq.com/). I created wireframes for desktop as well as mobile and tablet. The final design of the site closely follows the wireframes created during the design process which can be found in the links below:
 
-| Desktop | Tablet | Mobile |
-| :-----: | :----: | :----: |
-| [Home Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-desktop-home.pdf) | [Home Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-tablet-home.pdf) | [Home Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-home.pdf) |
-| [About Modal](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-desktop-about.pdf) | [About Modal](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-tablet-about.pdf) | [About Modal](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-about.pdf) |
+|                                                                 Desktop                                                                  |                                                                 Tablet                                                                  |                                                                 Mobile                                                                  |
+| :--------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: |
+|    [Home Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-desktop-home.pdf)    |    [Home Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-tablet-home.pdf)    |    [Home Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-home.pdf)    |
+|  [About Modal](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-desktop-about.pdf)   |  [About Modal](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-tablet-about.pdf)   |  [About Modal](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-about.pdf)   |
 | [Gallery Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-desktop-gallery.pdf) | [Gallery Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-tablet-gallery.pdf) | [Gallery Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-gallery.pdf) |
 | [Contact Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-desktop-contact.pdf) | [Contact Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-tablet-contact.pdf) | [Contact Page](https://github.com/KirstChat/kirsty-chatterton-photography/blob/master/assets/wireframes/photography-mobile-contact.pdf) |
 
 #### [Contents](#contents)
+
 ---
 
 ## Features
@@ -117,6 +118,7 @@ The wireframes for my site were created using [Balsamiq](https://balsamiq.com/).
   - This is a potential feature I'd like to implement to show users what equipment I use, other equipment I'd recommend, and tutorial posts to show my photo editing process. This is a feature that will only be implemented if there is enough interest.
 
 #### [Contents](#contents)
+
 ---
 
 ## Technologies Used
@@ -156,41 +158,46 @@ The W3C Markup Validator and W3C CSS Validator was used to validate every page o
   - gallery.html - No errors or warnings to show.
   - contact.html - No errors or warnings to show.
 
-
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
   - style.css - No error found.
   - The validator did display a warning for the use of -webkit-background-size.
 
 ### Testing User Stories from UX Section
 
 As a **user**, I want to easily understand the main purpose of the site on my first visit:
+
 - I've added a background image to the "Home" page with the title of the website (Kirsty Chatterton Photography) positioned in the center of the page in a large and easy to read font so the user has an understanding of what the site is when they first visit.
 - I've also included a button linking to the "Gallery" below the page title on the site which also helps to reinforce what the site is.
 
 As a **user**, I want to be able to easily navigate throughout the site to find content:
+
 - I've added a navigation bar to the top of every page on the site with links to each of the pages which are "Home", "Gallery" and "Contact".
 
 As a **user**, I want to see what type of work the photographer has done:
-- I've added a gallery page with four buttons that will display different image galleries when each button is clicked. 
+
+- I've added a gallery page with four buttons that will display different image galleries when each button is clicked.
 
 As a **user**, I want to find out more about the photographer and where they're located so I can book them for an event or other photography sessions:
+
 - I've added a modal on each page for the "About" section which can be accessed from the navigation bar at the top of each page. When the user clicks "About" in the navigation bar, the modal will pop up with a short bio on the photographer and where they're currently located.
 - I've also included my current location on the "Contact" page.
 
 As a **user**, I want to be able to easily contact the photographer to book them for an event or session, and to ask any other quesions I may have about their work:
+
 - I've added a "Contact" page on the site with a form which the user can complete to send me a message.
-- I've added social links to the footer on each page. These link to Instagram, LinkedIn and the "Contact" page on the site. Instagram and LinkedIn will open in a new tab/window so the user can easily come back to the site. 
+- I've added social links to the footer on each page. These link to Instagram, LinkedIn and the "Contact" page on the site. Instagram and LinkedIn will open in a new tab/window so the user can easily come back to the site.
 - I've also included my email address on the "Contact" page which will open a new email window when clicked by the user. This gives the user the option to contact me by filling in the form, by sending me a message on one of my social media pages or by sending me an email.
 
 ### Further Testing
 
 As well as running each page through a validator and testing user stories, I also tested the responsiveness of the site across a number of devices and different browsers:
+
 - The site was tested during the development process using Chrome DevTools to test the responsiveness on different devices before pushing any changes to GitHub.
 - On completion of the project, the site was tested in Chrome, Safari and FireFox.
 - The site was also tested on personal devices in Chrome and Safari. Devices include a MacBook Pro, iPad and iPhone 11.
-- I also used a site called [Responsinator](https://www.responsinator.com/) to test the responsiveness of the site across different sized tablet and mobile devices that I don't have access to.
+- I also used a site called [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Fkirstchat.github.io%2Fkirsty-chatterton-photography%2F) to test the responsiveness of the site across different sized tablet and mobile devices that I don't have access to.
 
-As well as testing the responsiveness of the site, I also tested the performance of each page using [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools. This was a suggestion from my mentor (Antonija Simic) to check how quickly images would load on desktop and mobile devices. The scores for each page can be found below: 
+As well as testing the responsiveness of the site, I also tested the performance of each page using [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools. This was a suggestion from my mentor (Antonija Simic) to check how quickly images would load on desktop and mobile devices. The scores for each page can be found below:
 
 - index.html:
 
@@ -205,10 +212,11 @@ As well as testing the responsiveness of the site, I also tested the performance
 ![Lighthouse Scores for contact.html](assets/images/performance-contact.jpg)
 
 Each page was also tested individualy to check that:
+
 - Images load properly
 - Buttons link to the correct page/external website
 - External links open in a new tab/window
-- Form validation works 
+- Form validation works
 
 The site was also tested and reviewed by my mentor as well as some Code Institute students from the June 2020 Cohort.
 
@@ -235,7 +243,7 @@ Images
 Despite some bugs during development, there are no major known bugs on the site but there is a minor bug that was discovered by one of my peers:
 
 - The hover state of the social media buttons doesn't revert back to it's original color when clicked/touched on a mobile device.
-- This is a common issue on mobile devices as discovered after a quick Google search and from my understanding, requires JavaScript to solve the issue. 
+- This is a common issue on mobile devices as discovered after a quick Google search and from my understanding, requires JavaScript to solve the issue.
 
 #### [Contents](#contents)
 
@@ -262,12 +270,14 @@ To clone the repository to make a local copy on your computer, follow these step
 
 1. Open GitHub and locate the GitHub repository: [github.com/KirstChat/kirsty-chatterton-photography](https://github.com/KirstChat/kirsty-chatterton-photography)
 2. Under the repository name, click "Code" or "Clone" and copy the link to clone the repository using "HTTPS".
-4. After copying the link, open terminal on your computer. This step can also be done in the terminal on an IDE.
-5. Change the current working directory to the location where you want the cloned directory to be saved.
-6. Type git clone, and then paste the URL: [https://github.com/KirstChat/kirsty-chatterton-photography](https://github.com/KirstChat/kirsty-chatterton-photography)- see example below:
+3. After copying the link, open terminal on your computer. This step can also be done in the terminal on an IDE.
+4. Change the current working directory to the location where you want the cloned directory to be saved.
+5. Type git clone, and then paste the URL: [https://github.com/KirstChat/kirsty-chatterton-photography](https://github.com/KirstChat/kirsty-chatterton-photography) - see example below:
+
 ```
 git clone https://github.com/KirstChat/kirsty-chatterton-photography.git
 ```
+
 7. Press Enter to create a local clone.
 
 #### [Contents](#contents)
@@ -278,7 +288,7 @@ git clone https://github.com/KirstChat/kirsty-chatterton-photography.git
 
 ### Code
 
-- [MDN Target Selector](https://developer.mozilla.org/en-US/docs/Web/CSS/:target) - This was recommended by my mentor (Antonija Simic) to help create a filter like image gallery without the use of JavaScript.  
+- [MDN Target Selector](https://developer.mozilla.org/en-US/docs/Web/CSS/:target) - This was recommended by my mentor (Antonija Simic) to help create a filter like image gallery without the use of JavaScript.
 - [CSS Tricks: Background Image](https://css-tricks.com/perfect-full-page-background-image/) - The code from this example was used to help center the background image on every page.
 - [CSS Tricks: Tinted Images](https://css-tricks.com/tinted-images-multiple-backgrounds/) - The code from this example was used to add a color overlay on background image on every page so both text and buttons are clearly visible on top of the background image.
 - [CSS Tricks: Sticky Footer](https://css-tricks.com/couple-takes-sticky-footer/) - Part of the code from the flexbox example was used to help position elements on a single page with none/minimal scroll.
@@ -297,7 +307,7 @@ git clone https://github.com/KirstChat/kirsty-chatterton-photography.git
 ### Acknowledgements
 
 - I'd like to thank my mentor Antonija Simic for all her feedback and advice on this project - especially for her suggestion to check out the CSS target selector which helped to achieve a filter like image gallery.
-- I'd also like to thank Aukje van der Wal and Neringa Bickmore for sharing examples of their README files during one of the daily calls on Slack - seeing additional examples of README files along with the Code Institue example was very helpful! 
-- And finally, I'd like to thank the Code Institute Slack community for all their help and feedback - they really are an amazing bunch of people! 
+- I'd also like to thank Aukje van der Wal and Neringa Bickmore for sharing examples of their README files during one of the daily calls on Slack - seeing additional examples of README files along with the Code Institue example was very helpful!
+- And finally, I'd like to thank the Code Institute Slack community for all their help and feedback - they really are an amazing bunch of people!
 
 #### [Contents](#contents)
