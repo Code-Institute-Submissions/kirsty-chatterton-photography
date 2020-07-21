@@ -7,7 +7,8 @@ body {
   padding: 0;
   height: 100vh;
 
-  /* Code below is from CSS Tricks: Sticky Footer */
+  /* Code below is from https://css-tricks.com/couple-takes-sticky-footer/ 
+  flexbox example to position the footer at the bottom of the viewport */
   display: flex;
   flex-direction: column;
 
@@ -20,7 +21,10 @@ body {
 }
 
 /* ------ Background Image ------ */
-/* Code below is from CSS Tricks: Background Images and CSS Tricks: Tinted Images*/
+
+/* Code below is from https://css-tricks.com/perfect-full-page-background-image/ to perfectly
+center a background image and https://css-tricks.com/tinted-images-multiple-backgrounds/
+to add a color overlay on background images*/
 .bg-img-home {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/pets/cavapoo-window.jpg");
@@ -152,7 +156,8 @@ body {
   padding: 15px 0;
 }
 
-/* Code below is from MDN tutorials on using the :target selector */
+/* Code below is from https://developer.mozilla.org/en-US/docs/Web/CSS/:target
+to open indivdual image galleries in gallery.html */
 .gallery .container-fluid {
   display: none;
 }
@@ -310,8 +315,8 @@ body {
 /* ------ End Footer/Social Media Links ------ */
 
 /* ------ Media Queries ------ */
-@media screen and (min-width: 813px) and (orientation:landscape) {
-  /* For devices larger than tablet and mobile devices*/
+@media screen and (min-width: 813px) and (orientation: landscape) {
+  /* For devices larger than tablet and mobile */
   .page-title h1 {
     padding: 0;
   }
